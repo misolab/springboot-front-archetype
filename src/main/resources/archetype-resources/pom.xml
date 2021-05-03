@@ -12,7 +12,7 @@
     <version>${version}</version>
     <packaging>war</packaging>
     <name>${artifactId}</name>
-    <description>Spring Boot Single Webapp project by misolab</description>
+    <description>Spring Boot Front Webapp project by misolab</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -237,8 +237,8 @@
                     <!-- https://github.com/eirslett/frontend-maven-plugin -->
                     <plugin>
                         <groupId>com.github.eirslett</groupId>
-                        <artifactId>${rootArtifactId}end-maven-plugin</artifactId>
-                        <version>${version}</version>
+                        <artifactId>frontend-maven-plugin</artifactId>
+                        <version>${frontend-maven-plugin.version}</version>
 
                         <configuration>
                             <nodeVersion>${nodeVersion.version}</nodeVersion>

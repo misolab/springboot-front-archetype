@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.misolab</groupId>
-  <artifactId>front-archetype</artifactId>
+  <artifactId>springboot-front-archetype</artifactId>
   <version>0.0.1</version>
   <packaging>maven-archetype</packaging>
 
